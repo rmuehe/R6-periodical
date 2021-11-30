@@ -1,7 +1,7 @@
 class CreateMagazines < ActiveRecord::Migration[6.1]
   def change
     create_table :magazines do |t|
-      t.sting :title
+      t.string :title
 
       t.timestamps
     end
